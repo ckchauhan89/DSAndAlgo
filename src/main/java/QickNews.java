@@ -5,7 +5,7 @@ public class QickNews {
         int index = start -1;
         int pivot = arr[end];
         for(int j = start; j < end; j++){
-            if( arr[j] <= pivot ){
+            if( arr[j] >= pivot ){
                 index++;
 
                int temp = arr[index];
